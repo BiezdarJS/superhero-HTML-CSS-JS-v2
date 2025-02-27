@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla Sass Boilerplate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <header id="header" class="header">
+      <div class="header-top">
+        <div class="header-top__menu-bar">
+          <h1 class="site-heading visuallyhidden">
+            Make Me Reels
+        </h1>
+        <a href="/" class="site-logo">
+          <img class="site-logo__img" src="./img/logo.svg" alt="">
+        </a> 
+        <h2 id="nav-label" class="nav__label">Menu</h2>
+          <button type="button" class="nav__toggler" aria-expanded="false">
+            <span class="nav__toggler-icon" aria-hidden="true"></span>
+            <div class="nav__toggler-label not-active">
+                <span></span>
+                <span></span>
+                <span></span>                    
+            </div>
+        </button>
+        </div>
+        
+        
+        <nav class="main-nav" aria-labelledby="nav-label">
+          
+        <div class="supehero-menu-wrap">
+          <ul class="main-menu o-list">
+              <li class="main-menu__item">
+                <a href="" class="main-menu__link">
+                  Test 1
+                </a>
+              </li>
+              <li class="main-menu__item">
+                <a href="" class="main-menu__link">
+                  Test 2
+                </a>
+              </li>
+              <li class="main-menu__item">
+                <a target="_blank" type="button" class="action-btn" data-toggle="modal" data-target="#myModal">Login</a>
+              </li>
+              <li class="main-menu__item">
+                <a target="_blank" type="button"  class="action-btn action-btn--bg-red action-btn--color-white" data-toggle="modal" data-target="#myModal">Get started for Free</a>
+              </li>
+          </ul>
+        </div>
+        </nav>
+              </div>
+          </nav>
+          </div>
+        </nav>
+      </div>
+      <section class="hero">
+        <div class="container">
+          <h2 class="heading heading--hero heading--yellow basic-shadow">
+            Your Brand needs <br>superheroes
+          </h2>
+          <p class="subheading subheading--hero">
+            Don't choose between Instagram & TikTok stars
+            </br>Dominate both with one ambassador
+          </p>
+            <ul class="hero-carousel owl-carousel owl-theme">
+              <li class="hero-item">
+                <div class="hero-card">
+                  <img class="hero-card__logo" src="./img/superhero-1.webp" alt="" />
+                </div>
+              </li>
+              <li class="hero-item">
+                <div class="hero-card">
+                  <img class="hero-card__logo" src="./img/superhero-2.webp" alt="" />
+                </div>
+              </li>
+              <li class="hero-item">
+                <div class="hero-card">
+                  <img class="hero-card__logo" src="./img/superhero-3.webp" alt="" />
+                </div>
+              </li>
+              <li class="hero-item">
+                <div class="hero-card">
+                  <img class="hero-card__logo" src="./img/superhero-4.webp" alt="" />
+                </div>
+              </li>
+              <li class="hero-item">
+                <div class="hero-card">
+                  <img class="hero-card__logo" src="./img/superhero-5.webp" alt="" />
+                </div>
+              </li>
+            </ul>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="bandwidth">
+          <h2 class="heading basic-shadow">
+            No bandwidth?<br /> No problem
+          </h2>
+          <ul class="bandwidth-list owl-carousel owl-theme list">
+            <li class="bandwidth-item">
+               <div class="bandwidth-person">
+                  <img class="bandwidth-person__img" src="https://cdn.prod.website-files.com/64cd367074be316f3359db61/674b355164a268c25e9a6d03_Poster%20Terry.webp" alt="">
+                  <div class="bandwidth-person__desc">
+                     <h3 class="bandwidth-person__name">
+                        Terry Wells
+                     </h3>
+                     <p class="bandwidth-person__occupation">
+                        Marketing Strategist
+                     </p>
+                  </div>
+               </div>
+               <div class="bandwidth-video">
+                  <img class="bandwidth-video__placeholder" src="https://cdn.prod.website-files.com/64cd367074be316f3359db61/674b355164a268c25e9a6d03_Poster%20Terry.webp" alt="Placeholder">
+                  <video loading="lazy" class="bandwidth-video__video" muted loop>
+                     <source src="https://res.cloudinary.com/almanac/video/upload/v1733524926/a/riverside_terry_hgomepage___dec_3_2024_001_blaze_customers_1_hqr1sk.mp4" type="video/mp4">
+                  </video>
+               </div>
+            </li>
+            <li class="bandwidth-item">
+               <div class="bandwidth-person">
+                  <img class="bandwidth-person__img" src="https://cdn.prod.website-files.com/64e6576f80fbf092615e2991/672257b6be4264347776cbda_image.png" alt="">
+                  <div class="bandwidth-person__desc">
+                     <h3 class="bandwidth-person__name">
+                        First Name
+                     </h3>
+                     <p class="bandwidth-person__occupation">
+                        Entrepenour
+                     </p>
+                  </div>
+               </div>
+               <div class="bandwidth-video">
+                  <img class="bandwidth-video__placeholder" src="https://cdn.prod.website-files.com/64cd367074be316f3359db61/674b34927734e652eef148ba_Poster%20Jared.webp" alt="Placeholder">
+                  <video loading="lazy" class="bandwidth-video__video" muted loop>
+                     <source src="https://res.cloudinary.com/almanac/video/upload/v1733524890/a/riverside_jared_hgomepage_2___dec_3_2024_001_blaze_customers_1_sjcgsn.mp4" type="video/mp4">
+                  </video>
+               </div>
+            </li>
+            <li class="bandwidth-item">
+               <div class="bandwidth-person">
+                  <img class="bandwidth-person__img" src="https://cdn.prod.website-files.com/64cd367074be316f3359db61/674b326a52dbdec10455df54_Poster%20Megan.webp" alt="">
+                  <div class="bandwidth-person__desc">
+                     <h3 class="bandwidth-person__name">
+                        First Name
+                     </h3>
+                     <p class="bandwidth-person__occupation">
+                        Entrepenour
+                     </p>
+                  </div>
+               </div>
+               <div class="bandwidth-video">
+                  <img class="bandwidth-video__placeholder" src="https://cdn.prod.website-files.com/64cd367074be316f3359db61/674b326a52dbdec10455df54_Poster%20Megan.webp" alt="Placeholder">
+                  <video loading="lazy" class="bandwidth-video__video" muted loop>
+                     <source src="https://res.cloudinary.com/almanac/video/upload/v1733340297/a/riverside_blaze_megan_homepage___dec_3_2024_001_blaze_customers_1_kmp3pt.mp4" type="video/mp4">
+                  </video>
+               </div>
+            </li>
+            <li class="bandwidth-item">
+               <div class="bandwidth-person">
+                  <img class="bandwidth-person__img" src="https://cdn.prod.website-files.com/64cd367074be316f3359db61/674b3234334d8fa6dd8db4e4_Poster%20Jeremy.webp" alt="">
+                  <div class="bandwidth-person__desc">
+                     <h3 class="bandwidth-person__name">
+                        First Name
+                     </h3>
+                     <p class="bandwidth-person__occupation">
+                        Entrepenour
+                     </p>
+                  </div>
+               </div>
+               <div class="bandwidth-video">
+                  <img class="bandwidth-video__placeholder" src="https://cdn.prod.website-files.com/64cd367074be316f3359db61/674b3234334d8fa6dd8db4e4_Poster%20Jeremy.webp" alt="Placeholder">
+                  <video loading="lazy" class="bandwidth-video__video" muted loop>
+                     <source src="https://res.cloudinary.com/almanac/video/upload/v1733340321/a/riverside_jerrmy_hgomepage___dec_3_2024_001_blaze_customers_1_b0t96h.mp4" type="video/mp4">
+                  </video>
+               </div>
+            </li>
+
+            <li class="bandwidth-item">
+              <div class="bandwidth-person">
+                 <img class="bandwidth-person__img" src="https://cdn.prod.website-files.com/64cd367074be316f3359db61/674b36227c16244ffee802fd_Poster%20Lewis.webp" alt="">
+                 <div class="bandwidth-person__desc">
+                    <h3 class="bandwidth-person__name">
+                       First Name
+                    </h3>
+                    <p class="bandwidth-person__occupation">
+                       Entrepenour
+                    </p>
+                 </div>
+              </div>
+              <div class="bandwidth-video">
+                 <img class="bandwidth-video__placeholder" src="https://cdn.prod.website-files.com/64cd367074be316f3359db61/674b36227c16244ffee802fd_Poster%20Lewis.webp" alt="Placeholder">
+                 <video loading="lazy" class="bandwidth-video__video" muted loop>
+                    <source src="https://res.cloudinary.com/almanac/video/upload/v1733525042/a/riverside_lewis__alan___sep_30_2024_001_blaze_customers_1_pts8dh.mp4" type="video/mp4">
+                 </video>
+              </div>
+           </li>
+
+           <li class="bandwidth-item">
+            <div class="bandwidth-person">
+               <img class="bandwidth-person__img" src="https://cdn.prod.website-files.com/64cd367074be316f3359db61/674b36227c16244ffee802fd_Poster%20Lewis.webp" alt="">
+               <div class="bandwidth-person__desc">
+                  <h3 class="bandwidth-person__name">
+                     First Name
+                  </h3>
+                  <p class="bandwidth-person__occupation">
+                     Entrepenour
+                  </p>
+               </div>
+            </div>
+            <div class="bandwidth-video">
+               <img class="bandwidth-video__placeholder" src="https://cdn.prod.website-files.com/64cd367074be316f3359db61/674b254bb27477841febaa36_David%20Lowell.webp" alt="Placeholder">
+               <video loading="lazy" class="bandwidth-video__video" muted loop>
+                  <source src="https://res.cloudinary.com/almanac/video/upload/v1733525127/a/riverside_alan_cassinelli___oct_4_2024_001_blaze_customers_1_drd3hx.mp4" type="video/mp4">
+               </video>
+            </div>
+         </li>
+
+         <li class="bandwidth-item">
+          <div class="bandwidth-person">
+             <img class="bandwidth-person__img" src="https://cdn.prod.website-files.com/64cd367074be316f3359db61/674b30c88ab05d18793b6b77_Poster%20Jane.webp" alt="">
+             <div class="bandwidth-person__desc">
+                <h3 class="bandwidth-person__name">
+                   First Name
+                </h3>
+                <p class="bandwidth-person__occupation">
+                   Entrepenour
+                </p>
+             </div>
+          </div>
+          <div class="bandwidth-video">
+             <img class="bandwidth-video__placeholder" src="https://cdn.prod.website-files.com/64cd367074be316f3359db61/674b30c88ab05d18793b6b77_Poster%20Jane.webp" alt="Placeholder">
+             <video loading="lazy" class="bandwidth-video__video" muted loop>
+                <source src="https://res.cloudinary.com/almanac/video/upload/v1730411185/a/riverside_angela__alan___sep_27_2024_002_blaze_customers_1_ila5ha.mp4" type="video/mp4">
+             </video>
+          </div>
+       </li>
+
+         </ul>
+      </section>
+      <section class="scroll-stopping">
+        <div class="container">
+          <div class="heading-wrap">
+            <h2 class="heading basic-shadow">
+              Scroll Stopping
+            </h2>
+            <p class="subheading">
+              Don't choose between Instagram & TikTok stars
+              </br>Dominate both with one ambassador
+            </p>
+          </div>
+          <ul class="scroll-stopping-list owl-carousel owl-theme">
+            <li class="scroll-item">
+              <div class="scroll-card scroll-card0">
+                <img class="scroll-card__img" src="./img/scroll-1.webp" alt="" />
+                <img class="scroll-card__logo" src="./img/logo-tiktok.svg" alt="" />
+              </div>
+            </li>
+            <li class="scroll-item">
+              <div class="scroll-card scroll-card1">
+                <img class="scroll-card__img" src="./img/scroll-2.webp" alt="" />
+                <img class="scroll-card__logo" src="./img/logo-instagram.svg" alt="" />
+              </div>
+            </li>
+            <li class="scroll-item">
+              <div class="scroll-card scroll-card2">
+                <img class="scroll-card__img" src="./img/scroll-3.webp" alt="" />
+                <img class="scroll-card__logo" src="./img/logo-facebook.svg" alt="" />
+              </div>
+            </li>
+            <li class="scroll-item">
+              <div class="scroll-card scroll-card0">
+                <img class="scroll-card__img" src="./img/scroll-4.webp" alt="" />
+                <img class="scroll-card__logo" src="./img/logo-tiktok.svg" alt="" />
+              </div>
+            </li>
+            <li class="scroll-item">
+              <div class="scroll-card scroll-card1">
+                <img class="scroll-card__img" src="./img/scroll-5.webp" alt="" />
+                <img class="scroll-card__logo" src="./img/logo-instagram.svg" alt="" />
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="fancy">
+        <div class="container">
+          <h2 class="heading basic-shadow fancy-heading">Really fancy <br> under the hood</h2>  
+        </div>
+      </section>
+
+      <section class="features">
+        <div class="container">
+           <h2 class="heading basic-shadow">
+              Our features
+           </h2>
+           <ul class="features-grid">
+              <li class="feature">
+                 <img class="feature__img" src="./img/features-1.png" alt="">
+              </li>
+              <li class="feature feature--blue">
+                 <h3 class="basic-shadow">
+                    Content Modelling
+                 </h3>
+              </li>
+              <li class="feature feature--yellow">
+                 <h3 class="basic-shadow">
+                    Performance Tracking
+                 </h3>
+              </li>
+              <li class="feature">
+                 <img src="./img/features-2.png" alt="">
+              </li>
+              <li class="feature">
+                 <img src="./img/features-3.png" alt="">
+              </li>
+              <li class="feature feature--navy">
+                 <h3 class="basic-shadow">
+                    Graph analysis
+                 </h3>
+              </li>
+           </ul>
+        </div>
+     </section>
+
+     <section class="content">
+      <div class="container">
+        <h2 class="heading basic-shadow">
+          Content That <br>actually Converts
+        </h2>
+        <ul class="content-grid list">
+          <li class="content-item">
+            <img class="content-item__img" src="./img/content-calendar.webp" alt="">
+            <div class="content-item__content">
+              <h3 class="content-item__heading">
+                Predictable Content Calendar 
+              </h3>
+              <p class="content-item__descr content-item__descr--center"> 
+                Steady stream of fresh, on brand content without lifting a finger
+              </p>
+            </div>
+          </li>
+          <li class="content-item">
+            <img class="content-item__img" src="./img/content-review.webp" alt="">
+            <div class="content-item__content">
+              <h3 class="content-item__heading">
+                Review and approve anything
+              </h3>
+              <p class="content-item__descr content-item__descr--center"> 
+                Use comments, tasks, and tracked changes to manage workflows
+              </p>
+            </div>
+          </li>
+          <li class="content-item">
+            <img class="content-item__img" src="./img/content-roi.webp" alt="">
+            <div class="content-item__content">
+              <h3 class="content-item__heading">
+                The Numbers That Matter
+              </h3>
+              <div class="content-item__descr"> 
+                <ul class="content-item-list">
+                  <li class="content-item-list__item">3-5x higher conversion rates</li>
+                  <li class="content-item-list__item">37% lower cost per engagement</li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="content-item">
+            <img class="content-item__img" src="./img/content-trust.webp" alt="">
+            <div class="content-item__content">
+              <h3 class="content-item__heading">
+                Quality You Can Trust
+              </h3>
+              <div class="content-item__descr"> 
+                <ul class="content-item-list">
+                  <li class="content-item-list__item">Real following</li>
+                  <li class="content-item-list__item">Consistent posting history</li>
+                  <li class="content-item-list__item">Professional communication</li>
+                  <li class="content-item-list__item">Previous collaboration success</li>
+                  <li class="content-item-list__item">Trusted recommendation source</li>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="comparison">
+      <div class="container">
+        <h2 class="heading basic-shadow">
+          Comparison
+        </h2>
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">Others</th>
+              <th scope="col">Reel</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Content Format</th>
+              <td data-title="Others">Static Images</td>
+              <td data-title="Reel">Get "reel" creative</td>
+            </tr>
+            <tr>
+              <th scope="row">Publishing Control</th>
+              <td data-title="Others">Content delivery schedules</td>
+              <td data-title="Reel">Approve only, they post</td>
+            </tr>
+            <tr>
+              <th scope="row">Creation Process</th>
+              <td data-title="Others">Content planning</td>
+              <td data-title="Reel">Set the direction, they deliver</td>
+            </tr>
+            <tr>
+              <th scope="row">Brand Ambassador Engagement</th>
+              <td data-title="Others">Chasing influencers</td>
+              <td data-title="Reel">Let brand ambassadors find you</td>
+            </tr>
+            <tr>
+              <th scope="row">Value Proposition</th>
+              <td data-title="Others">Hidden costs</td>
+              <td data-title="Reel">Consistent investment that builds you community fast</td>
+            </tr>
+            <tr>
+              <th scope="row">Workflow Efficiency</th>
+              <td data-title="Others">Endless follow up emails</td>
+              <td data-title="Reel">Content licensing done automatically</td>
+            </tr>
+            <tr>
+              <th scope="row">Engagement Quality</th>
+              <td data-title="Others">Hit and miss performance</td>
+              <td data-title="Reel">Authentic engagements that doesn't miss</td>
+            </tr>
+            <tr>
+              <th scope="row">Billing Simplicity</th>
+              <td data-title="Others">Payment and tax nightmares</td>
+              <td data-title="Reel">One fixed monthly fee</td>
+            </tr>
+            <tr>
+              <th scope="row">Performance Tracking</th>
+              <td data-title="Others">Begging for screenshots</td>
+              <td data-title="Reel">Detailed reporting as it happens</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  
+    </main>
+
+
+    <footer class="footer">
+      <div class="footer-top">
+        <form class="footer-form">
+          <h2 class="heading basic-shadow">
+            Start getting <br>what you're <br>paying for
+          </h2>
+          
+          <p class="subheading">
+            Get Your Custom <br>Ambassador Match Today
+          </p>
+          <input class="footer-form__input" type="text" placeholder="Your Email..." />
+          <button type="submit" class="footer-form__btn action-btn action-btn--bg-red action-btn--color-white">Get started</input>
+        </form>  
+      </div>
+      <div class="footer-bottom">
+        <ul class="footer-menu o-list">
+          <li class="footer-menu__item">
+            <a href="" class="footer-menu__link">
+              Test 1
+            </a>
+          </li>
+          <li class="footer-menu__item">
+            <a href="" class="footer-menu__link">
+              Test 2
+            </a>
+          </li>
+      </ul>
+      </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+          <div class="modal-content clearfix">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+              <div class="modal-body">
+                  <div id="successMessage" class="alert alert-success hidden">
+                      Form submitted successfully!
+                  </div>
+                  <h3 class="title">Login Form</h3>
+                  <p class="description">Login here Using Email & Password</p>
+                  <form id="loginForm">
+                      <div class="form-group">
+                          <span class="input-icon"><i class="fa fa-user"></i></span>
+                          <input type="email" class="form-control" placeholder="Enter email" required>
+                      </div>
+                      <div class="form-group">
+                          <span class="input-icon"><i class="fas fa-key"></i></span>
+                          <input type="password" class="form-control" placeholder="Password" required>
+                      </div>
+                      <div class="form-group checkbox">
+                          <input type="checkbox">
+                          <label>Remember me</label>
+                      </div>
+                      <a href="" class="forgot-pass">Forgot Password?</a>
+                      <button type="submit" class="btn">Login</button>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

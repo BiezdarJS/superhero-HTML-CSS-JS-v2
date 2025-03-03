@@ -2592,6 +2592,9 @@ body[data-aos-easing=ease-in-out-quart] [data-aos], [data-aos][data-aos][data-ao
     order: 5;
   }
 }
+.feature__img {
+  width: min(100%, 600px);
+}
 
 .features {
   border: 1px solid #1B1B1B;
@@ -2623,7 +2626,7 @@ body[data-aos-easing=ease-in-out-quart] [data-aos], [data-aos][data-aos][data-ao
 @media (max-width: 1200px) {
   .features-grid {
     grid-template-columns: 1fr;
-    width: max(90%, 400px);
+    width: max(100%, 400px);
     margin: 0 auto;
   }
 }
